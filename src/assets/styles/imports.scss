@@ -1,0 +1,15 @@
+/*
+ * This file is used to import other CSS or SCSS files;
+ * other CSS definitions need to be tailwind.scss or in the respective components
+ */
+
+// Variable Overrides
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+
+// Actual Imports
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+@import "~ngx-toastr/toastr.css";
